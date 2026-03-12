@@ -1,0 +1,10 @@
+{
+    "name": "online-store",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "npx nodemon server/index.js",
+        "seed": "node server/db/seed.js"
+    }
+}
